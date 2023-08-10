@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.examly.springapp.exception.ResourceNotFoundException;
-import com.examly.springapp.model.Task;
-import com.examly.springapp.repository.TaskRepository;
+import springapp.exception.ResourceNotFoundException;
+import springapp.model.Task;
+import springapp.repository.TaskRepository;
 
 @RestController
 @RequestMapping("")
